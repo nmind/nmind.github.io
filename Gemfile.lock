@@ -280,8 +280,13 @@ PLATFORMS
   x86_64-linux
 
 DEPENDENCIES
-  github-pages (~> 218)
+  github-pages
+  jekyll-feed
+  jekyll-gist
   jekyll-include-cache
+  jekyll-paginate
+  jekyll-sitemap
+  jemoji
   minimal-mistakes-jekyll (~> 4.24.0)
 
 BUNDLED WITH
