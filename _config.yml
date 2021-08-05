@@ -37,7 +37,7 @@ baseurl: "/" # the subpath of your site, e.g. /blog
 
 
 # website "skins" or "display themes"
-minimal_mistakes_skin: "contrast" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum" "sunrise"
+minimal_mistakes_skin: "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum" "sunrise"
 search: true
 
 
