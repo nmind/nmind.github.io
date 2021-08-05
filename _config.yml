@@ -31,6 +31,11 @@ description: >- # this means to ignore newlines until "baseurl:"
 domain: www.nmind.org # if you want to force HTTPS, specify the domain without the http at the start, e.g. example.com
 url: "https://www.nmind.org" # the base hostname & protocol for your site, e.g. http://example.com
 baseurl: "/" # the subpath of your site, e.g. /blog
+locale: "en-US"
+
+author:
+  name: "NMIND"
+  bio: "this Neuroimaging Method Is Not Duplicated"
 
 # twitter_username: jekyllrb
 # github_username:  jekyll
@@ -38,11 +43,10 @@ baseurl: "/" # the subpath of your site, e.g. /blog
 
 # website "skins" or "display themes"
 # minimal_mistakes_skin: "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum" "sunrise"
-search: true
+# search: true
 
 
 # Build settings
-markdown: kramdown
 theme: "mmistakes/minimal-mistakes@4.24.0"
 plugins:
   - jekyll-paginate
