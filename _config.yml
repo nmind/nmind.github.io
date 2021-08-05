@@ -71,3 +71,9 @@ defaults:
       type: pages
     values:
       layout: single
+
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
