@@ -37,6 +37,8 @@ jobs:
         done
     - name: Commit
       run: |
+        git branch -D gh-pages || true
+        git checkout -b gh-pages
         git rm -rf site .github || true
         git add * || true
         git commit -m "Publish \"$(git log -1 --pretty=%B)\"" || true
