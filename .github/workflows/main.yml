@@ -37,9 +37,9 @@ jobs:
         done
     - name: Commit
       run: |
-        git rm -rf site .git .github
-        git add *
-        git commit -m "Publish \"$(git log -1 --pretty=%B)\""
+        git rm -rf site .github || true
+        git add * || true
+        git commit -m "Publish \"$(git log -1 --pretty=%B)\"" || true
     - name: Push book changes
       uses: ad-m/github-push-action@master
       with:
