@@ -24,3 +24,21 @@ Accessible and automated mechanisms for certifying the compliance of tools with 
 ### 3. Engagement
 
 The widespread promotion and adoption of the NMIND collaborative standards and certification in the field, through the efforts of field influencers, educators and resource generators. The end goal of NMIND is software engineering standards and a common code base that will unite the field, reduce redundant effort, and accelerate progress.
+
+
+Community
+----------
+
+Join the [Gathertown community](https://www.google.com/url?q=https://gather.town/app/ESJPNXX7CVirKett/nmind).
+
+Coding projects
+---------------
+
+NMIND has the following GitHub projects
+
+* [nmind.github.io](https://github.com/nmind/nmind.github.io)
+  * The backing project for this website
+* [coding-standards-certification](https://github.com/nmind/coding-standards-certification)
+* [hackathon2021](https://github.com/nmind/hackathon2021)
+  * Issues and notes for the May 2021 NMinD hackathon
+* [nmind-coding-standards-action](https://github.com/nmind/nmind-coding-standards-action)
