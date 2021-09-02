@@ -24,3 +24,7 @@ NMIND has the following GitHub projects:
 * [hackathon2021](https://github.com/nmind/hackathon2021)
   * Issues and notes for the May 2021 NMinD hackathon
 * [nmind-coding-standards-action](https://github.com/nmind/nmind-coding-standards-action)
+
+Call to action
+--------------
+TODO Get someone to write this.
