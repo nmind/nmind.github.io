@@ -66,6 +66,9 @@ footer:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/nmind"
+    - label: "Monthly Hack-a-day"
+      icon: "fas fa-fw fa-calendar"
+      url: "/assets/calendar/NMIND monthly meeting.ics"
 
 
 # defaults:
