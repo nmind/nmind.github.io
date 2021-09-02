@@ -19,6 +19,9 @@
 # in the templates via {{ site.myvariable }}.
 
 title: NMIND
+title_separator: "|"
+subtitle: "Alignment | Certification | Engagement"
+
 email: nmind@googlegroups.com
 description: >- # this means to ignore newlines until "baseurl:"
   NMIND (this Neuroimaging Method Is Not Duplicated) is a collaborative 
@@ -28,17 +31,17 @@ description: >- # this means to ignore newlines until "baseurl:"
   about the reproducibility of code by independent teams, and challenges 
   arising in the sharing of code between teams due to lack of consistent 
   nomenclature and conventions.
-domain: www.nmind.org # if you want to force HTTPS, specify the domain without the http at the start, e.g. example.com
-url: "https://www.nmind.org" # the base hostname & protocol for your site, e.g. http://example.com
-baseurl: "" # the subpath of your site, e.g. /blog
-locale: "en-US"
+domain: www.nmind.org
+url: https://www.nmind.org
+baseurl: ""
+locale: en-US
 
 author:
-  name: "NMIND"
-  bio: "this Neuroimaging Method Is Not Duplicated"
+  name: NMIND
+  bio: this Neuroimaging Method Is Not Duplicated
 
 # twitter_username: jekyllrb
-github_username:  nmind
+github_username: nmind
 github: [metadata]
 
 # website "skins" or "display themes"
@@ -63,9 +66,12 @@ plugins:
 
 footer:
   links:
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/nmind"
+    - label: GitHub
+      icon: fab fa-fw fa-github
+      url: https://github.com/nmind
+    - label: Gather
+      icon: fas fa-fw fa-city
+      url: https://gather.town/app/ESJPNXX7CVirKett/nmind
     - label: "Monthly Hack-a-day"
       icon: "fas fa-fw fa-calendar"
       url: "/assets/calendar/NMIND monthly meeting.ics"
