@@ -1,2 +1,5 @@
-- file: landing-page
+format: jb-book
+root: landing-page
+chapters:
+- file: index
 - file: page1
