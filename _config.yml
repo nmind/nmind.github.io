@@ -22,7 +22,7 @@ title: NMIND
 title_separator: "|"
 subtitle: "Alignment | Certification | Engagement"
 
-email: eric.earl@nih.gov
+email: nmind@googlegroups.com
 description: >- # this means to ignore newlines until "baseurl:"
   NMIND (this Neuroimaging Method Is Not Duplicated) is a collaborative 
   dedicated to accelerating scientific discovery in neuroimaging 
@@ -33,7 +33,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   nomenclature and conventions.
 domain: www.nmind.org
 url: https://www.nmind.org
-baseurl: "/"
+baseurl: ""
 locale: en-US
 
 author:
@@ -41,8 +41,8 @@ author:
   bio: this Neuroimaging Method Is Not Duplicated
 
 # twitter_username: jekyllrb
-# github_username:  jekyll
-
+github_username: nmind
+github: [metadata]
 
 # website "skins" or "display themes"
 # minimal_mistakes_skin: "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum" "sunrise"
@@ -66,14 +66,15 @@ plugins:
 
 footer:
   links:
-
     - label: GitHub
       icon: fab fa-fw fa-github
       url: https://github.com/nmind
-
     - label: Gather
       icon: fas fa-fw fa-city
       url: https://gather.town/app/ESJPNXX7CVirKett/nmind
+    - label: "Monthly Hack-a-day"
+      icon: "fas fa-fw fa-calendar"
+      url: "/assets/calendar/NMIND monthly meeting.ics"
 
 
 # defaults:

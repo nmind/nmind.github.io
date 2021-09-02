@@ -2,6 +2,8 @@
 main:
   - title: "About"
     url: /
+  - title: "Monthly Hack-a-day"
+    url: "/assets/calendar/NMIND monthly meeting.ics"
   # - title: "About"
   #   url: https://mmistakes.github.io/minimal-mistakes/about/
   # - title: "Sample Posts"
