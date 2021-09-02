@@ -10,12 +10,13 @@ NMIND (this Neuroimaging Method Is Not Duplicated) is a collaborative dedicated 
 Community
 ----------
 
-Join the [Gathertown community](https://www.google.com/url?q=https://gather.town/app/ESJPNXX7CVirKett/nmind).
+* [Gathertown community](https://www.google.com/url?q=https://gather.town/app/ESJPNXX7CVirKett/nmind).
+* [Google group](https://groups.google.com/g/nmind)
 
 Coding projects
 ---------------
 
-NMIND has the following GitHub projects
+NMIND has the following GitHub projects:
 
 * [nmind.github.io](https://github.com/nmind/nmind.github.io)
   * The backing project for this website
