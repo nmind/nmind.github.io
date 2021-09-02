@@ -29,12 +29,12 @@ jobs:
     - name: Move book into Jekyll-friendly format
       run: |
         mv ./site/_build/html ./book
-        mv ./book/panels_static ./book/panels_static
-        mv ./book/_sources ./book/sources
-        mv ./book/_static ./book/static
-        grep -rl _panels_static ./book | xargs sed -i 's/panels_static/panels_static/g'
-        grep -rl _sources ./book | xargs sed -i 's/_sources/sources/g'
-        grep -rl _static ./book | xargs sed -i 's/_static/static/g'
+        UNDER_DIRECTORIES=$(ls -d ./book/_* | xargs -n 1 basename)
+        for U_D in $UNDER_DIRECTORIES
+        do 
+          mv ./book/${U_D} ./book/${U_D:1}
+          grep -rl ${U_D} ./book | xargs sed -i 's/${U_D}/${U_D:1}/g'
+        done
     - name: Commit
       run: |
         git rm -rf site .git .github
