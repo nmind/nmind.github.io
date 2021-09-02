@@ -35,6 +35,9 @@ jobs:
           mv ./book/${U_D} ./book/${U_D:1}
           grep -rl ${U_D} ./book | xargs sed -i 's/${U_D}/${U_D:1}/g' || true
         done
+    - uses: oleksiyrudenko/gha-git-credentials@v2-latest
+      with:
+        token: '${{ secrets.SITE_PUSH_SECRET }}'
     - name: Commit
       run: |
         git branch -D gh-pages || true
