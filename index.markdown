@@ -6,3 +6,5 @@ layout: single
 ---
 
 NMIND (this Neuroimaging Method Is Not Duplicated) is a collaborative dedicated to accelerating scientific discovery in neuroimaging research that was formed in 2020 as a grassroots initiative responding to the growing frustration about redundancies in effort, continuing questions about the reproducibility of code by independent teams, and challenges arising in the sharing of code between teams due to lack of consistent nomenclature and conventions.
+
+Join the [Gathertown community](https://www.google.com/url?q=https://gather.town/app/ESJPNXX7CVirKett/nmind).
