@@ -36,7 +36,7 @@ jobs:
           for RELEVANT_FILE in $(grep -rl ${U_D} ./book)
           do
             echo "Rewriting ${RELEVANT_FILE}"
-            .github/scripts/update_jb_paths ${RELEVANT_FILE} ${U_D} ${U_D:1}
+            .github/scripts/update_jb_paths ${RELEVANT_FILE} ${U_D} /book/${U_D:1}
           done
         done
     - uses: oleksiyrudenko/gha-git-credentials@v2-latest
