@@ -33,7 +33,11 @@ jobs:
         for U_D in $UNDER_DIRECTORIES
         do 
           mv ./book/${U_D} ./book/${U_D:1}
-          grep -rl ${U_D} ./book | xargs sed -i 's/${U_D}/${U_D:1}/g' || true
+          for RELEVANT_FILE in $(grep -rl ${U_D} ./book)
+          do
+            echo "Rewriting ${RELEVANT_FILE}"
+            .github/scripts/update_jb_paths ${RELEVANT_FILE} ${U_D} ${U_D:1}
+          done
         done
     - uses: oleksiyrudenko/gha-git-credentials@v2-latest
       with:
