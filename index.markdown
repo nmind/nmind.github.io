@@ -3,6 +3,14 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: splash
+header:
+  overlay_color: "#5e616c"
+excerpt: >
+  NMIND is a collaborative dedicated to accelerating scientific discovery in neuroimaging research that was formed in 2020 as a grassroots initiative - responding to the growing frustration about redundancies in effort, continuing questions about the reproducibility of code by independent teams, and challenges arising in the sharing of code between teams due to lack of consistent nomenclature and conventions.
+guiding_principals_header:
+  - excerpt: "## Guiding Principles
+
+The NMIND solution has three guiding principles: Alignment, Certification, & Engagement."
 guiding_principals:
   - excerpt: "### 1. Alignment
 
@@ -38,12 +46,7 @@ NMIND has the following GitHub projects
 * [nmind-coding-standards-action](https://github.com/nmind/nmind-coding-standards-action)
 "
 ---
-
-NMIND is a collaborative dedicated to accelerating scientific discovery in neuroimaging research that was formed in 2020 as a grassroots initiative - responding to the growing frustration about redundancies in effort, continuing questions about the reproducibility of code by independent teams, and challenges arising in the sharing of code between teams due to lack of consistent nomenclature and conventions.
-
-## Guiding Principles
-
-The NMIND solution has three guiding principles: Alignment, Certification, & Engagement.
+{% include feature_row id="guiding_principals_header" type="full-width" %}
 
 {% include feature_row id="guiding_principals" %}
 
