@@ -32,13 +32,11 @@ The widespread promotion and adoption of the NMIND collaborative standards and c
 get_involved:
   - excerpt: "## Community
 
-Join us in [Gather.town](https://www.google.com/url?q=https://gather.town/app/ESJPNXX7CVirKett/nmind) [the first Thursday of every month](/assets/calendar/NMIND monthly meeting.ics).
-
-Subscribe to our [Google Groups](https://groups.google.com/g/nmind).
+Join us in [Gather.town](https://www.google.com/url?q=https://gather.town/app/ESJPNXX7CVirKett/nmind) [the first Thursday of every month](/assets/calendar/NMIND monthly meeting.ics) and join our [Google Groups](https://groups.google.com/g/nmind).
 "
   - excerpt: "## Coding projects
 
-NMIND has the following GitHub projects
+NMIND has the following [GitHub](https://github.com/nmind) projects
 
 * [nmind.github.io](https://github.com/nmind/nmind.github.io) - The backing project for this website
 
