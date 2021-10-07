@@ -45,6 +45,10 @@ NMIND has the following GitHub projects
 
 * [nmind-coding-standards-action](https://github.com/nmind/nmind-coding-standards-action)
 "
+  - excerpt: "## Current Members
+
+Michael Milham, Damien Fair, Russell Poldrack, Theodore Satterthwaite, Satrajit Ghosh, Greg Kiar, Eric Earl, Chris Markiewicz, Steven Giavasis, Eric Feczko, Oscar Esteban, Mathias Goncalves, Jon Clucas, Teresa George, Xinhui Li, Amanda Rueter, Amy Gutierrez, Anders Perrone, Audrey Houghton, Benjamin Kay, Dorota Jarecka, Gregory Conan, Hecheng Jin, Kathy Snider, Lucille Moore, Robert Hermosillo, Thomas Madison
+"
 ---
 {% include feature_row id="guiding_principals_header" type="full-width" %}
 
