@@ -32,7 +32,10 @@ The widespread promotion and adoption of the NMIND collaborative standards and c
 get_involved:
   - excerpt: "## Community
 
-Join us in [Gather.town](https://www.google.com/url?q=https://gather.town/app/ESJPNXX7CVirKett/nmind) [the first Thursday of every month](/assets/calendar/NMIND monthly meeting.ics)."
+Join us in [Gather.town](https://www.google.com/url?q=https://gather.town/app/ESJPNXX7CVirKett/nmind) [the first Thursday of every month](/assets/calendar/NMIND monthly meeting.ics).
+
+Subscribe to our [Google Groups](https://groups.google.com/g/nmind).
+"
   - excerpt: "## Coding projects
 
 NMIND has the following GitHub projects
@@ -44,6 +47,10 @@ NMIND has the following GitHub projects
 * [hackathon2021](https://github.com/nmind/hackathon2021) - Issues and notes for the May 2021 NMinD hackathon
 
 * [nmind-coding-standards-action](https://github.com/nmind/nmind-coding-standards-action)
+"
+  - excerpt: "## Current Members
+
+Michael Milham, Damien Fair, Russell Poldrack, Theodore Satterthwaite, Satrajit Ghosh, Greg Kiar, Eric Earl, Chris Markiewicz, Steven Giavasis, Eric Feczko, Oscar Esteban, Mathias Goncalves, Jon Clucas, Teresa George, Xinhui Li, Amanda Rueter, Amy Gutierrez, Anders Perrone, Audrey Houghton, Benjamin Kay, Dorota Jarecka, Gregory Conan, Hecheng Jin, Kathy Snider, Lucille Moore, Robert Hermosillo, Thomas Madison
 "
 ---
 {% include feature_row id="guiding_principals_header" type="full-width" %}
