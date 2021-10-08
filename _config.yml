@@ -72,9 +72,12 @@ footer:
     - label: Gather
       icon: fas fa-fw fa-city
       url: https://gather.town/app/ESJPNXX7CVirKett/nmind
-    - label: "Monthly Hack-a-day"
-      icon: "fas fa-fw fa-calendar"
-      url: "/assets/calendar/NMIND_monthly_meeting.ics"
+    - label: Monthly Hack-a-day
+      icon: fas fa-fw fa-calendar
+      url: /assets/calendar/NMIND_monthly_meeting.ics
+    - label: Mailing List
+      icon: fas fa-fw fa-envelope
+      url: https://groups.google.com/g/nmind
 
 
 # defaults:
