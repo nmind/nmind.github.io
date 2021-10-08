@@ -13,7 +13,7 @@ get_involved:
 Check out one of our repositories on [GitHub](https://github.com/nmind). Feedback, questions, and contributions are always welcome!"
   - excerpt: "### Hack-a-days
 
-Join us for monthly hack-a-days on Gather.town! Add [this](/assets/calendar/NMIND monthly meeting.ics) event to your calendar, and join us on the first Thursday of the month."
+Join us for monthly hack-a-days on Gather.town! Add [this](/assets/calendar/NMIND_monthly_meeting.ics) event to your calendar, and join us on the first Thursday of the month."
   
   - excerpt: "### Certification
 
