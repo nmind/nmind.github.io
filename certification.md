@@ -25,7 +25,7 @@ Hit a roadblock? Reach out and help us improve these resources while we help you
   - excerpt: "### Certification Portal
 
 Want to automatically review your tool, search among others, and engage with the community? Just wait..."
-    url: "#"
+    url: "/certification"
     btn_label: "&#187; Portal coming soon..."
 
 
