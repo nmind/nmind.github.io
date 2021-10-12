@@ -13,14 +13,15 @@ summary:
 
 redirects:
   - excerpt: "### Governance"
-    url: "/community_governance"
+    url: "/community_governance#governance"
     btn_label: "&#187; See our organization"
   - excerpt: "### Members"
-    url: "/about"
-    btn_label: "&#187; Coming soon..."
+    url: "/community_governance#current-members"
+    btn_label: "&#187; Current Members"
   - excerpt: "### Sponsors"
-    url: "/about"
+    url: ""
     btn_label: "&#187; Coming soon..."
+    btn_class: disabled
     
 
 ---
