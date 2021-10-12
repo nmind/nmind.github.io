@@ -32,3 +32,10 @@ body, h1, h2, h3, h4, h5, h6{
 .archive__item-title {
   font-family: 'Montserrat', sans-serif;
 }
+
+a.disabled {
+  color: grey;
+  cursor: default;
+  pointer-events: none;
+  text-decoration: none;
+}
