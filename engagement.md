@@ -29,7 +29,7 @@ Look at the [logbook](https://docs.google.com/document/d/1u7TMiQR0qGXLYnhOjUnP5g
 
   - excerpt: "### Active Members
 
-Look at our [Community &amp; Governance](/community_governance#current-members) page to see who is involved, how we operate, and find an entrypoint!
+Look at our [Community &amp; Governance](/community_governance) page to see who is involved, how we operate, and find an entrypoint!
 "
 
 ---
