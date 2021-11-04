@@ -23,12 +23,12 @@ jobs:
       run: |
         python -m pip install --upgrade pip
         pip install -U jupyter-book
-        if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
+        if [ -f jupyter-book/requirements.txt ]; then pip install -r jupyter-book/requirements.txt; fi
     - name: Build book
-      run: jb build ./jupyter-book
+      run: jb build ./jupyter-book/site
     - name: Move book into Jekyll-friendly format
       run: |
-        mv ./jupyter-book/_build/html ./book
+        mv ./jupyter-book/site/_build/html ./book
         UNDER_DIRECTORIES=$(ls -d ./book/_* | xargs -n 1 basename)
         for U_D in $UNDER_DIRECTORIES
         do 
@@ -44,9 +44,11 @@ jobs:
         token: '${{ secrets.SITE_PUSH_SECRET }}'
     - name: Commit
       run: |
+        git fetch origin || true
         git branch -D gh-pages || true
         git checkout -b gh-pages
-        git rm -rf jupyter-book .github || true
+        # remove source files
+        git rm -rf jupyter-book minimal-mistakes .github || true
         git add * || true
         git commit -m "Publish \"$(git log -1 --pretty=%B)\"" || true
     - name: Push book changes
