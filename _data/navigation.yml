@@ -4,6 +4,8 @@ main:
     url: "/about"
   - title: "Get Involved"
     url: "/engagement"
+  - title: "Jupyter Book"
+    url: "/book"
   # - title: "About"
   #   url: https://mmistakes.github.io/minimal-mistakes/about/
   # - title: "Sample Posts"

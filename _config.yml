@@ -78,6 +78,9 @@ footer:
     - label: Mailing List
       icon: fas fa-fw fa-envelope
       url: https://groups.google.com/g/nmind
+    - label: Jupyter Book
+      icon: fas fa-fw fa-book-reader
+      url: /book
 
 
 # defaults:
