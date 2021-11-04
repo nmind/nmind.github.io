@@ -7,6 +7,6 @@ Base branches on and direct pull requests to the [`main` branch](https://github.
 * See [Minimal Mistakes](https://mmistakes.github.io/minimal-mistakes) for framework documentation.
 
 ## Jupyter Book
-* Content is found in Jupyter, Markdown and HTML files in the [`jupyter-book`](jupyter-book) subdirectory.
+* Content is found in Jupyter and Markdown files in the [`jupyter-book`](jupyter-book) subdirectory.
 * Configuration is found in [`/jupyter-book/_config.yml`](jupyter-book/_config.yml).
 * See [Jupyter Book](https://jupyterbook.org) for framework documentation.
