@@ -25,10 +25,10 @@ jobs:
         pip install -U jupyter-book
         if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
     - name: Build book
-      run: jb build ./site
+      run: jb build ./jupyter-book
     - name: Move book into Jekyll-friendly format
       run: |
-        mv ./site/_build/html ./book
+        mv ./jupyter-book/_build/html ./book
         UNDER_DIRECTORIES=$(ls -d ./book/_* | xargs -n 1 basename)
         for U_D in $UNDER_DIRECTORIES
         do 
@@ -46,7 +46,7 @@ jobs:
       run: |
         git branch -D gh-pages || true
         git checkout -b gh-pages
-        git rm -rf site .github || true
+        git rm -rf jupyter-book .github || true
         git add * || true
         git commit -m "Publish \"$(git log -1 --pretty=%B)\"" || true
     - name: Push book changes
