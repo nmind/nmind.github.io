@@ -3,3 +3,5 @@ _site
 .jekyll-cache
 .jekyll-metadata
 vendor
+jupyter-book/site/_build
+!jupyter-book/site/*.ipynb
