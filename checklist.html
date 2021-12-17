@@ -1,0 +1,622 @@
+---
+
+layout: splash
+title: Variability Capture Checklist
+header:
+  overlay_image: "https://image.freepik.com/free-photo/flat-lay-notebook-with-list-desk_23-2148938735.jpg"
+  overlay_image: "https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/270-jira05545424-jj.jpg?w=1000&dpr=1&fit=default&crop=default&q=65&vib=3&con=3&usm=15&bg=F4F4F3&auto=format&ixlib=js-2.2.1&s=a49917fb02c73969cb6bc614438624e3"
+
+---
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/clay/lib/css/atlas.css">
+<script src="https://cdn.jsdelivr.net/npm/clay/lib/js/clay.js"></script>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script> 
+
+<body style="background-color:white!important">
+
+<div style="padding: 0vh 5vw">
+<h1>Variability Capture Checklist</h1>
+<hr/>
+
+<div aria-orientation="vertical" class="panel-group" role="tablist">
+	<div class="panel" role="tablist">
+		<button
+			aria-controls="collapsePanelOne"
+      id="button1"
+			aria-expanded="false"
+			class="btn btn-unstyled panel-header panel-header-link collapse-icon collapse-icon-middle collapsed"
+			data-target="#collapsePanelOne"
+			data-toggle="collapse"
+			role="tab"
+		>
+			<span class="panel-title"><h4>How was variability captured in this study?</h4></span>
+			<span class="collapse-icon-closed">
+				<svg
+					class="lexicon-icon lexicon-icon-angle-right"
+					role="presentation"
+				>
+					<use xlink:href="/assets/images/icons.svg#angle-right"></use>
+				</svg>
+			</span>
+			<span class="collapse-icon-open">
+				<svg
+					class="lexicon-icon lexicon-icon-angle-down"
+					role="presentation"
+				>
+					<use xlink:href="/assets/images/icons.svg#angle-down"></use>
+				</svg>
+			</span>
+		</button>
+		<div
+			class="panel-collapse collapse"
+			id="collapsePanelOne"
+			role="tabpanel"
+		>
+			<div class="panel-body">
+
+<div class="form-group">
+  <h4 style="display:inline">Dataset</h4>
+  <label style="float:right; width: 11em" class="toggle-switch">
+  <input class="toggle-switch-check" type="checkbox" />
+  <span aria-hidden="true" class="toggle-switch-bar">
+  <span class="toggle-switch-handle" data-label-off="Not Explored" data-label-on="Explored" data-toggle="collapse" href="#dataset_d">
+  <span class="toggle-switch-icon toggle-switch-icon-on">
+  <svg class="lexicon-icon lexicon-icon-check" focusable="false" role="presentation">
+   <use href="/assets/images/icons.svg#check" />
+  </svg>
+  </span>
+  <span class="toggle-switch-icon toggle-switch-icon-off">
+   <svg class="lexicon-icon lexicon-icon-times" focusable="false" role="presentation">
+   <use href="/assets/images/icons.svg#times" />
+   </svg>
+  </span>
+  </span>
+  </span>
+  </label>
+  <div style="width:80%" class="form-group panel-collapse collapse" id="dataset_d">
+  <label for="basicInputTypeTextarea">Description</label>
+  <textarea class="form-control" rows=3 id="basicInputTypeTextarea" placeholder="What dataset was used to generate this finding?
+Were other datasets used for external validation?
+Was the dataset separated for the learning and validation of results?"></textarea>
+  </div>
+</div>
+
+<div class="form-group">
+  <h4 style="display:inline">Repeated measurements</h4>
+  <label style="float:right; width:11em" class="toggle-switch">
+  <input class="toggle-switch-check" type="checkbox" />
+  <span aria-hidden="true" class="toggle-switch-bar">
+  <span class="toggle-switch-handle" data-label-off="Not Explored" data-label-on="Explored" data-toggle="collapse" href="#repeatedmeasure_d">
+  <span class="toggle-switch-icon toggle-switch-icon-on">
+  <svg class="lexicon-icon lexicon-icon-check" focusable="false" role="presentation">
+   <use href="/assets/images/icons.svg#check" />
+  </svg>
+  </span>
+  <span class="toggle-switch-icon toggle-switch-icon-off">
+   <svg class="lexicon-icon lexicon-icon-times" focusable="false" role="presentation">
+   <use href="/assets/images/icons.svg#times" />
+   </svg>
+  </span>
+  </span>
+
+  </span>
+  </label>
+  <div style="width:80%" class="form-group panel-collapse collapse" id="repeatedmeasure_d">
+  <label for="basicInputTypeTextarea">Description</label>
+  <textarea class="form-control" rows=3 id="basicInputTypeTextarea" placeholder="Were multiple measurements taken per sample?
+Was each modality/feature evaluated multiple times?
+What was the reliability of the dataset?"></textarea>
+  </div>
+</div>
+
+<div class="form-group">
+  <h4 style="display:inline">Phenotypic targets</h4>
+  <label style="float:right; width:11em" class="toggle-switch">
+  <input class="toggle-switch-check" type="checkbox" />
+  <span aria-hidden="true" class="toggle-switch-bar">
+  <span class="toggle-switch-handle" data-label-off="Not Explored" data-label-on="Explored" data-toggle="collapse" href="#phenotypictarg_d">
+  <span class="toggle-switch-icon toggle-switch-icon-on">
+  <svg class="lexicon-icon lexicon-icon-check" focusable="false" role="presentation">
+   <use href="/assets/images/icons.svg#check" />
+  </svg>
+  </span>
+  <span class="toggle-switch-icon toggle-switch-icon-off">
+   <svg class="lexicon-icon lexicon-icon-times" focusable="false" role="presentation">
+   <use href="/assets/images/icons.svg#times" />
+   </svg>
+  </span>
+  </span>
+
+  </span>
+  </label>
+  <div style="width:80%" class="form-group panel-collapse collapse" id="phenotypictarg_d">
+  <label for="basicInputTypeTextarea">Description</label>
+  <textarea class="form-control" rows=3 id="basicInputTypeTextarea" placeholder="Were multiple measurements taken per sample?
+Was each modality/feature evaluated multiple times?
+What was the reliability of the dataset?"></textarea>
+  </div>
+</div>
+
+<div class="form-group">
+  <h4 style="display:inline">Modalities</h4>
+  <label style="float:right; width:11em" class="toggle-switch">
+  <input class="toggle-switch-check" type="checkbox" />
+  <span aria-hidden="true" class="toggle-switch-bar">
+  <span class="toggle-switch-handle" data-label-off="Not Explored" data-label-on="Explored" data-toggle="collapse" href="#modality_d">
+  <span class="toggle-switch-icon toggle-switch-icon-on">
+  <svg class="lexicon-icon lexicon-icon-check" focusable="false" role="presentation">
+   <use href="/assets/images/icons.svg#check" />
+  </svg>
+  </span>
+  <span class="toggle-switch-icon toggle-switch-icon-off">
+   <svg class="lexicon-icon lexicon-icon-times" focusable="false" role="presentation">
+   <use href="/assets/images/icons.svg#times" />
+   </svg>
+  </span>
+  </span>
+
+  </span>
+  </label>
+  <div style="width:80%" class="form-group panel-collapse collapse" id="modality_d">
+  <label for="basicInputTypeTextarea">Description</label>
+  <textarea class="form-control" rows=3 id="basicInputTypeTextarea" placeholder="Were data collected using multiple measurement techniques?
+Were findings compared to those generated using another modality?"></textarea>
+  </div>
+</div>
+
+<div class="form-group">
+  <h4 style="display:inline">Processing configurations</h4>
+  <label style="float:right; width:11em" class="toggle-switch">
+  <input class="toggle-switch-check" type="checkbox" />
+  <span aria-hidden="true" class="toggle-switch-bar">
+  <span class="toggle-switch-handle" data-label-off="Not Explored" data-label-on="Explored" data-toggle="collapse" href="#procconfig_d">
+  <span class="toggle-switch-icon toggle-switch-icon-on">
+  <svg class="lexicon-icon lexicon-icon-check" focusable="false" role="presentation">
+   <use href="/assets/images/icons.svg#check" />
+  </svg>
+  </span>
+  <span class="toggle-switch-icon toggle-switch-icon-off">
+   <svg class="lexicon-icon lexicon-icon-times" focusable="false" role="presentation">
+   <use href="/assets/images/icons.svg#times" />
+   </svg>
+  </span>
+  </span>
+
+  </span>
+  </label>
+  <div style="width:80%" class="form-group panel-collapse collapse" id="procconfig_d">
+  <label for="basicInputTypeTextarea">Description</label>
+  <textarea class="form-control" rows=3 id="basicInputTypeTextarea" placeholder="Were multiple processing pipelines considered?
+Were various sets of parameters used?"></textarea>
+  </div>
+</div>
+
+<div class="form-group">
+  <h4 style="display:inline">Numerical uncertainty</h4>
+  <label style="float:right; width:11em" class="toggle-switch">
+  <input class="toggle-switch-check" type="checkbox" />
+  <span aria-hidden="true" class="toggle-switch-bar">
+  <span class="toggle-switch-handle" data-label-off="Not Explored" data-label-on="Explored" data-toggle="collapse" href="#numunc_d">
+  <span class="toggle-switch-icon toggle-switch-icon-on">
+  <svg class="lexicon-icon lexicon-icon-check" focusable="false" role="presentation">
+   <use href="/assets/images/icons.svg#check" />
+  </svg>
+  </span>
+  <span class="toggle-switch-icon toggle-switch-icon-off">
+   <svg class="lexicon-icon lexicon-icon-times" focusable="false" role="presentation">
+   <use href="/assets/images/icons.svg#times" />
+   </svg>
+  </span>
+  </span>
+
+  </span>
+  </label>
+  <div style="width:80%" class="form-group panel-collapse collapse" id="numunc_d">
+  <label for="basicInputTypeTextarea">Description</label>
+  <textarea class="form-control" rows=3 id="basicInputTypeTextarea" placeholder="Was noise added to the data?
+Was noise added to the processing?
+Were various infrastructures (e.g. OSes) used?"></textarea>
+  </div>
+</div>
+
+<div class="form-group">
+  <h4 style="display:inline">Resolution</h4>
+  <label style="float:right; width:11em" class="toggle-switch">
+  <input class="toggle-switch-check" type="checkbox" />
+  <span aria-hidden="true" class="toggle-switch-bar">
+  <span class="toggle-switch-handle" data-label-off="Not Explored" data-label-on="Explored" data-toggle="collapse" href="#resolution_d">
+  <span class="toggle-switch-icon toggle-switch-icon-on">
+  <svg class="lexicon-icon lexicon-icon-check" focusable="false" role="presentation">
+   <use href="/assets/images/icons.svg#check" />
+  </svg>
+  </span>
+  <span class="toggle-switch-icon toggle-switch-icon-off">
+   <svg class="lexicon-icon lexicon-icon-times" focusable="false" role="presentation">
+   <use href="/assets/images/icons.svg#times" />
+   </svg>
+  </span>
+  </span>
+
+  </span>
+  </label>
+  <div style="width:80%" class="form-group panel-collapse collapse" id="resolution_d">
+  <label for="basicInputTypeTextarea">Description</label>
+  <textarea class="form-control" rows=3 id="basicInputTypeTextarea" placeholder="Was the finding evaluated across multiple spatial or temporal resolutions?
+Were results using multiple expertly-defined regional boundaries compared?"></textarea>
+  </div>
+</div>
+
+<div class="form-group">
+  <h4 style="display:inline">Analyst (data collection)</h4>
+  <label style="float:right; width:11em" class="toggle-switch">
+  <input class="toggle-switch-check" type="checkbox" />
+  <span aria-hidden="true" class="toggle-switch-bar">
+  <span class="toggle-switch-handle" data-label-off="Not Explored" data-label-on="Explored" data-toggle="collapse" href="#analystdata_d">
+  <span class="toggle-switch-icon toggle-switch-icon-on">
+  <svg class="lexicon-icon lexicon-icon-check" focusable="false" role="presentation">
+   <use href="/assets/images/icons.svg#check" />
+  </svg>
+  </span>
+  <span class="toggle-switch-icon toggle-switch-icon-off">
+   <svg class="lexicon-icon lexicon-icon-times" focusable="false" role="presentation">
+   <use href="/assets/images/icons.svg#times" />
+   </svg>
+  </span>
+  </span>
+
+  </span>
+  </label>
+  <div style="width:80%" class="form-group panel-collapse collapse" id="analystdata_d">
+  <label for="basicInputTypeTextarea">Description</label>
+  <textarea class="form-control" rows=3 id="basicInputTypeTextarea" placeholder="Were data collected by different individuals?
+Were data collected using different apparatus?"></textarea>
+  </div>
+</div>
+
+<div class="form-group">
+  <h4 style="display:inline">Analyst (processing &amp; modelling)</h4>
+  <label style="float:right; width:11em" class="toggle-switch">
+  <input class="toggle-switch-check" type="checkbox" />
+  <span aria-hidden="true" class="toggle-switch-bar">
+  <span class="toggle-switch-handle" data-label-off="Not Explored" data-label-on="Explored" data-toggle="collapse" href="#analystproc_d">
+  <span class="toggle-switch-icon toggle-switch-icon-on">
+  <svg class="lexicon-icon lexicon-icon-check" focusable="false" role="presentation">
+   <use href="/assets/images/icons.svg#check" />
+  </svg>
+  </span>
+  <span class="toggle-switch-icon toggle-switch-icon-off">
+   <svg class="lexicon-icon lexicon-icon-times" focusable="false" role="presentation">
+   <use href="/assets/images/icons.svg#times" />
+   </svg>
+  </span>
+  </span>
+
+  </span>
+  </label>
+  <div style="width:80%" class="form-group panel-collapse collapse" id="analystproc_d">
+  <label for="basicInputTypeTextarea">Description</label>
+  <textarea class="form-control" rows=3 id="basicInputTypeTextarea" placeholder="Were tools developed by &gt;1 individual?
+Were multiple expert opinions considered?
+Were results replicated across analysts?"></textarea>
+  </div>
+</div>
+
+<div class="form-group">
+  <h4 style="display:inline">Other</h4>
+  <label style="float:right; width:11em" class="toggle-switch">
+  <input class="toggle-switch-check" type="checkbox" />
+  <span aria-hidden="true" class="toggle-switch-bar">
+  <span class="toggle-switch-handle" data-label-off="Not Explored" data-label-on="Explored" data-toggle="collapse" href="#other1_d">
+  <span class="toggle-switch-icon toggle-switch-icon-on">
+  <svg class="lexicon-icon lexicon-icon-check" focusable="false" role="presentation">
+   <use href="/assets/images/icons.svg#check" />
+  </svg>
+  </span>
+  <span class="toggle-switch-icon toggle-switch-icon-off">
+   <svg class="lexicon-icon lexicon-icon-times" focusable="false" role="presentation">
+   <use href="/assets/images/icons.svg#times" />
+   </svg>
+  </span>
+  </span>
+
+  </span>
+  </label>
+  <div style="width:80%" class="form-group panel-collapse collapse" id="other1_d">
+  <label for="basicInputTypeTextarea">Description</label>
+  <textarea class="form-control" rows=3 id="basicInputTypeTextarea" placeholder=""></textarea>
+  </div>
+</div>
+			</div>
+		</div>
+	</div>
+
+
+<hr/>
+
+<!-- start grp 2 -->
+
+<div class="panel" role="tablist">
+		<button
+			aria-controls="collapsePanelTwo"
+      id="button2"
+			aria-expanded="false"
+			class="btn btn-unstyled panel-header panel-header-link collapse-icon collapse-icon-middle collapsed"
+			data-target="#collapsePanelTwo"
+			data-toggle="collapse"
+			role="tab"
+		>
+			<span class="panel-title"><h4>How was variabilty used in the analyses?</h4></span>
+			<span class="collapse-icon-closed">
+				<svg
+					class="lexicon-icon lexicon-icon-angle-right"
+					role="presentation"
+				>
+					<use xlink:href="/assets/images/icons.svg#angle-right"></use>
+				</svg>
+			</span>
+			<span class="collapse-icon-open">
+				<svg
+					class="lexicon-icon lexicon-icon-angle-down"
+					role="presentation"
+				>
+					<use xlink:href="/assets/images/icons.svg#angle-down"></use>
+				</svg>
+			</span>
+		</button>
+		<div
+			class="panel-collapse collapse"
+			id="collapsePanelTwo"
+			role="tabpanel"
+		>
+			<div class="panel-body">
+
+<div class="form-group">
+  <h4 style="display:inline">Stability of features/effect size</h4>
+  <label style="float:right;width:11em" class="toggle-switch">
+  <input class="toggle-switch-check" type="checkbox" />
+  <span aria-hidden="true" class="toggle-switch-bar">
+  <span class="toggle-switch-handle" data-label-off="Not Used" data-label-on="Used" data-toggle="collapse" href="#effectsize_d">
+  <span class="toggle-switch-icon toggle-switch-icon-on">
+  <svg class="lexicon-icon lexicon-icon-check" focusable="false" role="presentation">
+   <use href="/assets/images/icons.svg#check" />
+  </svg>
+  </span>
+  <span class="toggle-switch-icon toggle-switch-icon-off">
+   <svg class="lexicon-icon lexicon-icon-times" focusable="false" role="presentation">
+   <use href="/assets/images/icons.svg#times" />
+   </svg>
+  </span>
+  </span>
+  </span>
+  </label>
+  <div style="width:80%" class="form-group panel-collapse collapse" id="effectsize_d">
+  <label for="basicInputTypeTextarea">Description</label>
+  <textarea class="form-control" rows=3 id="basicInputTypeTextarea" placeholder="Such as measures of test-retest reliability (e.g. discriminability), the number of significant digits in results, variance in model performance, or measures of group differences."></textarea>
+  </div>
+</div>
+
+<div class="form-group">
+  <h4 style="display:inline">Permutation testing</h4>
+  <label style="float:right; width:11em" class="toggle-switch">
+  <input class="toggle-switch-check" type="checkbox" />
+  <span aria-hidden="true" class="toggle-switch-bar">
+  <span class="toggle-switch-handle" data-label-off="Not Used" data-label-on="Used" data-toggle="collapse" href="#permutation_d">
+  <span class="toggle-switch-icon toggle-switch-icon-on">
+  <svg class="lexicon-icon lexicon-icon-check" focusable="false" role="presentation">
+   <use href="/assets/images/icons.svg#check" />
+  </svg>
+  </span>
+  <span class="toggle-switch-icon toggle-switch-icon-off">
+   <svg class="lexicon-icon lexicon-icon-times" focusable="false" role="presentation">
+   <use href="/assets/images/icons.svg#times" />
+   </svg>
+  </span>
+  </span>
+  </span>
+  </label>
+  <div style="width:80%" class="form-group panel-collapse collapse" id="permutation_d">
+  <label for="basicInputTypeTextarea">Description</label>
+  <textarea class="form-control" rows=3 id="basicInputTypeTextarea" placeholder="Such as what may be performed to evaluate whether a statistical difference across the perturbed axes existed and had an impact on the results."></textarea>
+  </div>
+</div>
+
+<div class="form-group">
+  <h4 style="display:inline">Meta-analysis</h4>
+  <label style="float:right; width:11em" class="toggle-switch">
+  <input class="toggle-switch-check" type="checkbox" />
+  <span aria-hidden="true" class="toggle-switch-bar">
+  <span class="toggle-switch-handle" data-label-off="Not Used" data-label-on="Used" data-toggle="collapse" href="#metaana_d">
+  <span class="toggle-switch-icon toggle-switch-icon-on">
+  <svg class="lexicon-icon lexicon-icon-check" focusable="false" role="presentation">
+   <use href="/assets/images/icons.svg#check" />
+  </svg>
+  </span>
+  <span class="toggle-switch-icon toggle-switch-icon-off">
+   <svg class="lexicon-icon lexicon-icon-times" focusable="false" role="presentation">
+   <use href="/assets/images/icons.svg#times" />
+   </svg>
+  </span>
+  </span>
+  </span>
+  </label>
+  <div style="width:80%" class="form-group panel-collapse collapse" id="metaana_d">
+  <label for="basicInputTypeTextarea">Description</label>
+  <textarea class="form-control" rows=3 id="basicInputTypeTextarea" placeholder="Such as generating consensus results across each unique corpus of similarly produced findings."></textarea>
+  </div>
+</div>
+
+<div class="form-group">
+  <h4 style="display:inline">Meta-study</h4>
+  <label style="float:right;width:11em" class="toggle-switch">
+  <input class="toggle-switch-check" type="checkbox" />
+  <span aria-hidden="true" class="toggle-switch-bar">
+  <span class="toggle-switch-handle" data-label-off="Not Used" data-label-on="Used" data-toggle="collapse" href="#metastud_d">
+  <span class="toggle-switch-icon toggle-switch-icon-on">
+  <svg class="lexicon-icon lexicon-icon-check" focusable="false" role="presentation">
+   <use href="/assets/images/icons.svg#check" />
+  </svg>
+  </span>
+  <span class="toggle-switch-icon toggle-switch-icon-off">
+   <svg class="lexicon-icon lexicon-icon-times" focusable="false" role="presentation">
+   <use href="/assets/images/icons.svg#times" />
+   </svg>
+  </span>
+  </span>
+  </span>
+  </label>
+  <div style="width:80%" class="form-group panel-collapse collapse" id="metastud_d">
+  <label for="basicInputTypeTextarea">Description</label>
+  <textarea class="form-control" rows=3 id="basicInputTypeTextarea" placeholder="Such as considering uniquely generated findings with an effort to evaluate the impact of independent experimental facets."></textarea>
+  </div>
+</div>
+
+<div class="form-group">
+  <h4 style="display:inline">Dataset augmentation</h4>
+  <label style="float:right;width:11em" class="toggle-switch">
+  <input class="toggle-switch-check" type="checkbox" />
+  <span aria-hidden="true" class="toggle-switch-bar">
+  <span class="toggle-switch-handle" data-label-off="Not Used" data-label-on="Used" data-toggle="collapse" href="#dataaug_d">
+  <span class="toggle-switch-icon toggle-switch-icon-on">
+  <svg class="lexicon-icon lexicon-icon-check" focusable="false" role="presentation">
+   <use href="/assets/images/icons.svg#check" />
+  </svg>
+  </span>
+  <span class="toggle-switch-icon toggle-switch-icon-off">
+   <svg class="lexicon-icon lexicon-icon-times" focusable="false" role="presentation">
+   <use href="/assets/images/icons.svg#times" />
+   </svg>
+  </span>
+  </span>
+  </span>
+  </label>
+  <div style="width:80%" class="form-group panel-collapse collapse" id="dataaug_d">
+  <label for="basicInputTypeTextarea">Description</label>
+  <textarea class="form-control" rows=3 id="basicInputTypeTextarea" placeholder="Such as leveraging variably-derived data products to increase the number of measurements available for analysis."></textarea>
+  </div>
+</div>
+
+<div class="form-group">
+  <h4 style="display:inline">Other</h4>
+  <label style="float:right;width:11em" class="toggle-switch">
+  <input class="toggle-switch-check" type="checkbox" />
+  <span aria-hidden="true" class="toggle-switch-bar">
+  <span class="toggle-switch-handle" data-label-off="Not Used" data-label-on="Used" data-toggle="collapse" href="#other_2">
+  <span class="toggle-switch-icon toggle-switch-icon-on">
+  <svg class="lexicon-icon lexicon-icon-check" focusable="false" role="presentation">
+   <use href="/assets/images/icons.svg#check" />
+  </svg>
+  </span>
+  <span class="toggle-switch-icon toggle-switch-icon-off">
+   <svg class="lexicon-icon lexicon-icon-times" focusable="false" role="presentation">
+   <use href="/assets/images/icons.svg#times" />
+   </svg>
+  </span>
+  </span>
+  </span>
+  </label>
+  <div style="width:80%" class="form-group panel-collapse collapse" id="other_2">
+  <label for="basicInputTypeTextarea">Description</label>
+  <textarea class="form-control" rows=3 id="basicInputTypeTextarea" placeholder=""></textarea>
+  </div>
+</div>
+
+
+			</div>
+		</div>
+	</div>
+
+<hr/>
+
+	<div class="panel" role="tablist">
+		<button
+      id="button3"
+			aria-controls="collapsePanelThree"
+			aria-expanded="false"
+			class="btn btn-unstyled panel-header panel-header-link collapse-icon collapse-icon-middle collapsed"
+			data-target="#collapsePanelThree"
+			data-toggle="collapse"
+			role="tab"
+		>
+			<span class="panel-title"><h4>Remaining biases &amp; impact</h4></span>
+			<span class="collapse-icon-closed">
+				<svg
+					class="lexicon-icon lexicon-icon-angle-right"
+					role="presentation"
+				>
+					<use xlink:href="/assets/images/icons.svg#angle-right"></use>
+				</svg>
+			</span>
+			<span class="collapse-icon-open">
+				<svg
+					class="lexicon-icon lexicon-icon-angle-down"
+					role="presentation"
+				>
+					<use xlink:href="/assets/images/icons.svg#angle-down"></use>
+				</svg>
+			</span>
+		</button>
+		<div
+			class="panel-collapse collapse"
+			id="collapsePanelThree"
+			role="tabpanel"
+		>
+			<div class="panel-body">
+
+
+<div class="form-group">
+  <h4 style="display:inline">Potential remaining sources of bias</h4>
+  <div style="width:80%" class="form-group">
+  <label for="basicInputTypeTextarea">Description</label>
+  <textarea class="form-control" rows=3 id="basicInputTypeTextarea" placeholder="Enumerate and describe other possible sources of bias that were not explored within your study and provide brief justification for why they were not explored."></textarea>
+  </div>
+</div>
+
+<div class="form-group">
+  <h4 style="display:inline">Impact of variability</h4>
+  <div style="width:80%" class="form-group">
+  <label for="basicInputTypeTextarea">Description</label>
+  <textarea class="form-control" rows=3 id="basicInputTypeTextarea" placeholder="Briefly summarize the impact of the included variability analyses on your findings."></textarea>
+  </div>
+</div>
+
+
+			</div>
+		</div>
+	</div>
+</div>
+
+
+<div class="sheet-footer" style="display: flex; justify-content:flex-end">
+		<div class="btn-group-item">
+			<div class="btn-group-item">
+				<button class="btn btn-primary" type="button" onclick="printFunction()">Save Form</button>
+			</div>
+		</div>
+</div>
+
+</div>
+<script>
+  function sleep(milliseconds) {
+    const date = Date.now();
+    let currentDate = null;
+    do {
+      currentDate = Date.now();
+    } while (currentDate - date < milliseconds);
+  }
+
+  function printFunction() { 
+    let array = ['button1', 'button2', 'button3'];
+    array.forEach((element) => {
+      elm = document.getElementById(element);
+      if (elm.ariaExpanded == 'false') {
+        elm.click();
+      };
+    });
+    sleep(400); //emperically determined to be min time for the collapse animation to finish
+    $(document).ready(function () { 
+      window.print(); 
+    });
+  }
+</script>
+
+</body>
