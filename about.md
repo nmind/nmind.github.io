@@ -12,11 +12,11 @@ summary:
   - excerpt: "NMIND is a grassroots collaborative dedicated to responding to the growing frustration about redundancies in effort and reproducibility in neuroimaging. NMIND seeks to build a community which advances the development of standards in software development, nomenclature, and testing, to ultimately harmonize advancements in neuroscience."
 
 redirects:
-  - excerpt: "### Governance"
-    url: "/community_governance#governance"
+  - excerpt: "### Governance Model"
+    url: "/community_governance"
     btn_label: "&#187; See our organization"
   - excerpt: "### Members"
-    url: "/community_governance#current-members"
+    url: "/team"
     btn_label: "&#187; Current Members"
   - excerpt: "### Sponsors"
     url: ""
