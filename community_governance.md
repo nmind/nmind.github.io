@@ -12,8 +12,8 @@ overview:
 
       <br/><br/>What follows is a detailed breakdown of the Governance model develped by NMIND, which has been inspired by the <a href="https://europeanopensciencecloud.github.io/Governance/GovernanceModel.html">European Open Science Cloud</a> community.</p>
 
-      <div>
-        <img src="/assets/images/nmind_governance.svg" />
+      <div style="width:75%; transform: translate(12.5%, 0)">
+        <img src="/assets/images/nmind_governance.png" />
         <p style="text-align:justify; font-style: italic;"><strong>Governance Model Illustration.</strong> The COMMUNITY is the foundation of NMIND, and determines needs of the field. The STRATEGIC COMMITTEE, built from community members, defines the vision. The EXECUTIVE LEADERSHIP prioritizes and siphons responsibilities and deliverables among the development teams. The DEVELOPMENT TEAMS make contributions which go back into the COMMUNITY. The small "Banyan" element of the tree represents the give and take between all levels of NMIND, ensuring a cohesive plan.</p>
       </div>
 
@@ -21,16 +21,15 @@ model:
   - excerpt: |
       ## Democratizing Decision Making Through Engagement
 
+      <p>The engagement and decision-flow across these stakeholders is outlined in the Figure.</p>
       <ul>
-        <li> The engagement and decision-flow across these stakeholders is outlined in the Figure.</li>
-        <ul>
-          <li>The COMMUNITY identifies needs</li>
-          <li>The STRATEGIC COMMITTEE distills needs and overarching themes for the EXECUTIVE LEADERSHIP</li>
-          <li>The EXECUTIVE LEADERSHIP prioritize advancement of projects to address community needs, and distributes work among DEVELOPMENT TEAMS</li>
-          <li>DEVELOPMENT TEAM leaders work with the EXECUTIVE LEADERSHIP and STRATEGIC COMMITTEE to set goals and provision resources.</li>
-          <li>DEVELOPMENT TEAMS, made up of COMMUNITY members, work towards the established objectives and contribute results back to the COMMUNITY.</li>
-        </ul>
+        <li>The COMMUNITY identifies needs</li>
+        <li>The STRATEGIC COMMITTEE distills needs and overarching themes for the EXECUTIVE LEADERSHIP</li>
+        <li>The EXECUTIVE LEADERSHIP prioritize advancement of projects to address community needs, and distributes work among DEVELOPMENT TEAMS</li>
+        <li>DEVELOPMENT TEAM leaders work with the EXECUTIVE LEADERSHIP and STRATEGIC COMMITTEE to set goals and provision resources.</li>
+        <li>DEVELOPMENT TEAMS, made up of COMMUNITY members, work towards the established objectives and contribute results back to the COMMUNITY.</li>
       </ul>
+     
       <p>Each of the layers of the NMIND Governance model can be further defined as:</p>
       <ul>
         <li>The EXECUTIVE LEADERSHIP translates the strategic vision into prioritized action plans with responsibilities and deliverables distributed to the relevant DEVELOPMENT TEAM(S). The EXECUTIVE LEADERSHIP is responsible for designating, supporting and managing resources utilized in development.</li>
@@ -75,6 +74,6 @@ model:
 
 ---
 
-{% include feature_row id="overview" type="center" %}
+{% include feature_row id="overview" type="full-width" %}
 
 {% include feature_row id="model" type="full-width" %}
