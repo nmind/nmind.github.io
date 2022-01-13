@@ -45,7 +45,7 @@ members:
       ## Active Community Members
 
       <p>The Community is central to NMIND and its success. Ongoing interactions with the broad scientific Community allow for NMIND to maintain a sense of current strengths in research practices, the needs of researchers, and identify goals for the project at large. If you are interested in participating, head over to the <a href='/engagement'>"Get Involved"</a> page. A (certainly non-exhaustive) list of participating members include:</p>
-      <p>Michael Milham, Damien Fair, Russell Poldrack, Theodore Satterthwaite, Satrajit Ghosh, Greg Kiar, Eric Earl, Chris Markiewicz, Steven Giavasis, Eric Feczko, Oscar Esteban, Mathias Goncalves, Jon Clucas, Teresa George, Xinhui Li, Amanda Rueter, Amy Gutierrez, Anders Perrone, Audrey Houghton, Benjamin Kay, Dorota Jarecka, Gregory Conan, Hecheng Jin, Kathy Snider, Lucille Moore, Robert Hermosillo, Thomas Madison</p>
+      <p>Michael Milham, Damien Fair, Russell Poldrack, Theodore Satterthwaite, Satrajit Ghosh, Greg Kiar, Eric Earl, Chris Markiewicz, Steven Giavasis, Eric Feczko, Oscar Esteban, Mathias Goncalves, Jon Clucas, Teresa George, Xinhui Li, Amanda Rueter, Amy Gutierrez, Anders Perrone, Audrey Houghton, Benjamin Kay, Dorota Jarecka, Gregory Conan, Hecheng Jin, Kathy Snider, Lucille Moore, Robert Hermosillo, Thomas Madison, Yaroslav Halchenko</p>
 ---
 
 {% include feature_row id="exec" type="full-width" %}
