@@ -15,7 +15,7 @@ Check out one of our repositories on [GitHub](https://github.com/nmind). Feedbac
 
 Join us for monthly hack-a-days on Gather.town! Add [this](/assets/calendar/NMIND_monthly_meeting.ics) event to your calendar, and join us on the first Thursday of the month."
   
-  - excerpt: "### Certification
+  - excerpt: "### Testing
 
 Test out the NMIND standards on your own tool! You can go through [the checklists](https://github.com/nmind/coding-standards-certification) and see how you're doing!"
  

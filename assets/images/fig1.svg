@@ -17,7 +17,7 @@
    id="svg8"
    inkscape:version="0.92.5 (2060ec1f9f, 2020-04-08)"
    sodipodi:docname="fig1.svg"
-   inkscape:export-filename="/home/Gregory.Kiar/Desktop/fig1.png"
+   inkscape:export-filename="/home/Gregory.Kiar/code/nmind/nmind.github.io/assets/images/fig1.png"
    inkscape:export-xdpi="99.971893"
    inkscape:export-ydpi="99.971893">
   <defs
@@ -137,7 +137,11 @@
    
   </style>
   </defs>
-  <rect width="100%" height="100%" fill="white" />
+  <rect
+     width="100%"
+     height="100%"
+     fill="white"
+     id="rect24" />
   <sodipodi:namedview
      id="base"
      pagecolor="#ffffff"
@@ -146,7 +150,7 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.49497475"
-     inkscape:cx="761.17032"
+     inkscape:cx="770.19336"
      inkscape:cy="679.99344"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
@@ -168,7 +172,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -273,7 +277,7 @@
          y="129.144"
          x="-189.82576"
          id="tspan909"
-         sodipodi:role="line">Certification</tspan><tspan
+         sodipodi:role="line">Testing</tspan><tspan
          id="tspan913"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Sawasdee;-inkscape-font-specification:'Sawasdee Bold';text-align:end;text-anchor:end;stroke-width:0.26458335"
          y="142.98373"
