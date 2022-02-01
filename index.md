@@ -4,7 +4,7 @@
 
 layout: splash
 header:
-  image: assets/images/brain_wires.png
+  image: /assets/images/brain_wires.png
 
 summary:
   - image_path: /assets/images/fig1.png
