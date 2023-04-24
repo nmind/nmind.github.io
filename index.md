@@ -11,7 +11,7 @@ summary:
     title: "Mission Statement"
     excerpt: "NMIND is a collaborative dedicated to responding to the growing frustration about redundancies in effort and reproducibility in neuroimaging. NMIND seeks to build a community which advances the development of standards in software development, nomenclature, and testing, to ultimately harmonize advancements in neuroscience."
     url: "https://docs.google.com/document/d/1DM4x1_FHe2vHgMP74g-cfuPbwFD7LlH8JChhk1p722c/edit?usp=sharing"
-    btn_label: "&#187; Read our whitepaper (soon to be out in Nature Human Behavior"
+    btn_label: "&#187; Read our whitepaper (soon to be out in Nature Human Behavior)"
 
 pillars:
   - image_path: /assets/images/align.png
