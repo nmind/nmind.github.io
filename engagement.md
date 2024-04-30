@@ -17,7 +17,7 @@ Join us for monthly hack-a-days on Gather.town! Add [this](/assets/calendar/NMIN
   
   - excerpt: "### Testing
 
-Test out the NMIND standards on your own tool! You can go through [the checklists](https://github.com/nmind/coding-standards-certification) and see how you're doing!"
+Test out the NMIND standards on your own tool! You can go through [the checklists](https://www.nmind.org/standards-checklist/) and see how you're doing!"
  
   - excerpt: "### Mailing List
 
@@ -35,6 +35,5 @@ Look at our [Team](/team) page to see who is involved, how we operate, and find 
 ---
 
 There are a number of ways to participate in the NMIND Community. Try out one of the following:
-
 
 {% include feature_row id="get_involved" %}
