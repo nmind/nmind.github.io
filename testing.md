@@ -14,8 +14,8 @@ bumper:
 options:
   - excerpt: "### Do it yourself
 
-Test out the NMIND standards on your own tool! You can go through [the checklists](https://github.com/nmind/coding-standards-certification) and see how you're doing!"
-    url: "https://github.com/nmind/coding-standards-certification"
+Test out the NMIND standards on your own tool! You can go through [the checklists](https://www.nmind.org/standards-checklist/) and see how you're doing!"
+    url: "https://www.nmind.org/standards-checklist/"
     btn_label: "&#187; Checkout the checklist"
   - excerpt: "### Get some help
 
@@ -31,9 +31,6 @@ Want to automatically review your tool, search among others, and engage with the
 
 ---
 
-
 {% include feature_row id="bumper" type="center" %}
 
 {% include feature_row id="options" %}
-
-
