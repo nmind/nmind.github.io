@@ -10,8 +10,8 @@ summary:
   - image_path: /assets/images/fig1.png
     title: "Mission Statement"
     excerpt: "NMIND is a collaborative dedicated to responding to the growing frustration about redundancies in effort and reproducibility in neuroimaging. NMIND seeks to build a community which advances the development of standards in software development, nomenclature, and testing, to ultimately harmonize advancements in neuroscience."
-    url: "https://docs.google.com/document/d/1DM4x1_FHe2vHgMP74g-cfuPbwFD7LlH8JChhk1p722c/edit?usp=sharing"
-    btn_label: "&#187; Read our whitepaper (soon to be out in Nature Human Behavior)"
+    url: "https://www.nature.com/articles/s41562-023-01647-0"
+    btn_label: "&#187; Read our whitepaper"
 
 pillars:
   - image_path: /assets/images/align.png
@@ -26,10 +26,8 @@ pillars:
     excerpt: "NMIND relies upon the participation and contribution of community members. Find out how you can join in!"
     url: "/engagement"
     btn_label: "&#187; Get Involved"
-
 ---
 
 {% include feature_row id="summary" type="left" %}
 
 {% include feature_row id="pillars" %}
-
