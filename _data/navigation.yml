@@ -4,7 +4,7 @@ main:
     url: "/about"
   - title: "Get Involved"
     url: "/engagement"
-  - title: "Proceedings"
+  - title: "Tools"
     url: "/proceedings"
   # - title: "About"
   #   url: https://mmistakes.github.io/minimal-mistakes/about/
