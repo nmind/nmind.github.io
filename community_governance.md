@@ -29,7 +29,7 @@ model:
         <li>DEVELOPMENT TEAM leaders work with the EXECUTIVE LEADERSHIP and STRATEGIC COMMITTEE to set goals and provision resources.</li>
         <li>DEVELOPMENT TEAMS, made up of COMMUNITY members, work towards the established objectives and contribute results back to the COMMUNITY.</li>
       </ul>
-     
+
       <p>Each of the layers of the NMIND Governance model can be further defined as:</p>
       <ul>
         <li>The EXECUTIVE LEADERSHIP translates the strategic vision into prioritized action plans with responsibilities and deliverables distributed to the relevant DEVELOPMENT TEAM(S). The EXECUTIVE LEADERSHIP is responsible for designating, supporting and managing resources utilized in development.</li>
@@ -68,10 +68,8 @@ model:
             <li>The Structure of proposals is presently deliberately flexible, and will be further restricted based on learned experience.</li>
             <li>All proposals and projects will be public, and include instructions for how new members may engage with them.</li>
           </ul>
-          <li>To have voting privileges for STRATEGIC COMMITTEE selection, a COMMUNITY MEMBER is required to demonstrate participation in NMIND initiative discussions or monthly hackathons.</li>
+          <li>To have voting privileges for STRATEGIC COMMITTEE selection, a COMMUNITY MEMBER is required to demonstrate participation in NMIND initiative discussions.</li>
         </ul>
-
-
 ---
 
 {% include feature_row id="overview" type="full-width" %}
