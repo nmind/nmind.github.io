@@ -1,6 +1,0 @@
-format: jb-book
-root: landing-page
-chapters:
-- file: index
-- file: page1
-- file: example
